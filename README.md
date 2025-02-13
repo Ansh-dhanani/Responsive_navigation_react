@@ -20,9 +20,9 @@
 ![Desktop View](screenshots/desktop_view.png)  
 
 📱 **Mobile View**  
-![Mobile View](<p align="center">
+![Mobile View]<p align="center">
   <img src="screenshots/desktop-view.png" alt="Desktop View" width="500">
-</p>)  
+</p>
 
 
 
