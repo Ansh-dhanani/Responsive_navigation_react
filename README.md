@@ -17,7 +17,7 @@
 ## 📸 Screenshots
 
 🖼️ **Desktop View**  
-![Desktop View](https://github.com/Ansh-dhanani/Responsive_navigation_react/tree/30c3ad2473cd4b6c573f79a0bcd72afe2c6e77dd/screenshots)  
+![Desktop View](https://github.com/Ansh-dhanani/Responsive_navigation_react/tree/main/screenshots)  
 
 📱 **Mobile View**  
 ![Mobile View](https://github.com/Ansh-dhanani/Responsive_navigation_react/tree/30c3ad2473cd4b6c573f79a0bcd72afe2c6e77dd/screenshots)  
