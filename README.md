@@ -19,10 +19,12 @@
 🖼️ **Desktop View**  
 ![Desktop View](screenshots/desktop_view.png)  
 
-📱 **Mobile View**  
 <p align="center">
-![Mobile View](screenshots/mobile_view.png)
+  📱 <b>Mobile View</b>  
+  <br>
+  <img src="screenshots/mobile_view.png" alt="Mobile View">
 </p>
+
 
 
 ---
