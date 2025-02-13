@@ -1,22 +1,42 @@
-
-
 @font-face {
   font-family: 'CustomFont';
   src: url('./assets/fonts/Peasante-e94Op.ttf') format('truetype');
   font-weight: 400;
   font-style: extra-light;
 }
+
 @font-face {
-  font-family: 'CustomFont2';
+  font-family: 'Equity';
   src: url('./assets/fonts/EquityPersonalUseOnlyReg-KVpep.ttf') format('truetype');
   font-weight: 400;
-  font-style: extra-light;
+  font-style: normal;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Equity', sans-serif;
+}
+
 h1 {
   font-family: 'CustomFont', sans-serif;
   font-size: 9em;
   line-height: 1.1;
+  transition: color 3s, text-shadow 900ms;
 }
+
+h1:hover {
+  justify-content: center;
+  color: #ff9a64;
+  background: linear-gradient(0deg, #b13e00, #ffab80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 1em rgba(255, 149, 100, 0.5);
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -30,9 +50,11 @@ h1 {
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -59,3 +81,4 @@ h1 {
 .read-the-docs {
   color: #888;
 }
+

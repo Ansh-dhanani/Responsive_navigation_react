@@ -1,0 +1,65 @@
+.container {
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    position: absolute; /* Change from relative to absolute */
+    top: 50%; /* Center vertically */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Adjust position to center */
+    width: 100px;
+    height: 80px; /* Make it a perfect circle */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+@keyframes rotate {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.letter {
+    position: absolute;
+    transform-origin: center 40px; /* Adjust transform-origin to center */
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-top: 0px;
+}
+
+/* Apply rotation animation for desktop view only */
+@media (min-width: 769px) {
+    .circle {
+        animation: rotate 10s linear infinite; /* Add rotation animation */
+    }
+}
+
+/* Hide circle for Android (mobile) devices */
+@media (max-width: 768px) {
+    .circle {
+        display: none;
+    }
+    .dot {
+        display: none;
+    }
+}
