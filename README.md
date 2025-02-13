@@ -20,7 +20,7 @@
 ![Desktop View](screenshots/desktop_view.png)  
 
 📱 **Mobile View**  
-![Mobile View](screenshots/mobile-view.png)  
+![Mobile View](screenshots/mobile_view.png)  
 
 ---
 
