@@ -20,7 +20,7 @@
 ![Desktop View](screenshots/desktop_view.png)  
 
 📱 **Mobile View**  
-![Mobile View](https://github.com/Ansh-dhanani/Responsive_navigation_react/tree/30c3ad2473cd4b6c573f79a0bcd72afe2c6e77dd/screenshots)  
+![Mobile View](screenshots/mobile-view.png)  
 
 ---
 
